@@ -79,7 +79,7 @@ function Footer() {
 
         <div className="d-flex flex-column justify-content-between  pt-3 lg-flex-row">
           <nav className="d-flex flex-wrap align-items-center justify-content-around py-2 pb-4">
-            <ul className="d-flex flex-row flex-wrap align-items-center justify-content-center gap-2 m-0 p-0 md-gap-5">
+            <ul className="d-flex flex-row flex-wrap align-items-center justify-content-center gap-2 m-0 p-0 md-gap-5" style={{listStyleType: "none"}}>
               {footerLinks.map((link, index) => (
                 <li key={index}>
                     <a
